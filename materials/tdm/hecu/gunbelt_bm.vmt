@@ -1,15 +1,15 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models\tdm/hecu\gunbelt_bm"
-	"$bumpmap"    "models\tdm/hecu\gunbelt_nm"
+	"$baseTexture" "tdm/hecu\gunbelt_bm"
+	"$bumpmap"    "tdm/hecu\gunbelt_nm"
 	
 	"$phongexponent" "5"
 	"$phongalbedotint" 1
 	"$phong" "1"
 	"$phongboost"	"0.1"
 	"$phongfresnelranges"	"[5 7 8]"
-	"$phongexponenttexture" "models\tdm/hecu\exp"
-	"$lightwarptexture" 	"models\tdm/hecu\Clothes_wrp"
+	"$phongexponenttexture" "tdm/hecu\exp"
+	"$lightwarptexture" 	"tdm/hecu\Clothes_wrp"
 	$alphatest 1
 	$ambientocclusion 0
 }

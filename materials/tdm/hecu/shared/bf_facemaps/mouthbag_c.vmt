@@ -1,7 +1,7 @@
 vertexlitgeneric
 {
-$baseTexture "models\tdm\hecu\shared\BF_facemaps\mouthbag_c"
-$bumpmap "models\tdm\hecu\shared\BF_facemaps\mouthbag_n"
+$baseTexture "tdm\hecu\shared\BF_facemaps\mouthbag_c"
+$bumpmap "tdm\hecu\shared\BF_facemaps\mouthbag_n"
 $nocull 1
 
 $phong 1

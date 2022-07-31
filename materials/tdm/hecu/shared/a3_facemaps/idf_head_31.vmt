@@ -1,8 +1,8 @@
 vertexlitgeneric
 {
-$baseTexture "models\tdm\hecu\shared\A3_facemaps\IDF_head_31"
-$bumpmap "models\tdm\hecu\shared\A3_facemaps\IDF_head_nml"
-$lightwarptexture "models\tdm\hecu\shared\A3_facemaps\Base_M_caucasian_wrp"
+$baseTexture "tdm\hecu\shared\A3_facemaps\IDF_head_31"
+$bumpmap "tdm\hecu\shared\A3_facemaps\IDF_head_nml"
+$lightwarptexture "tdm\hecu\shared\A3_facemaps\Base_M_caucasian_wrp"
 $nocull 1
 
 $phong 1
@@ -14,7 +14,7 @@ $phongfresnelranges "[.2 .5 5]"
 $ambientocclusion 1
 $halflambert 0
 $diffuseexp "1.5"
-	"$detail" "models\tdm\hecu\shared\skin_detail"
+	"$detail" "tdm\hecu\shared\skin_detail"
 	"$detailscale"        "8"
 	"$detailblendfactor"  ".7"
 	"$detailblendmode"    "0"

@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models/tdm\hecu/HECU/hecu_headgear_01"
-	"$bumpmap" "models/tdm\hecu/HECU/hecu_headgear_01_n"
+	"$baseTexture" "tdm\hecu/hecu_headgear_01"
+	"$bumpmap" "tdm\hecu/hecu_headgear_01_n"
 	"$nocull" "1"
 	"$phong" "1"
 	"$phongexponent" "4"
@@ -9,5 +9,5 @@
 	"$phongboost" ".05"
 	"$phongfresnelranges"	"[.3 .3 .3]"
 	$halflambert 1
-	 "$lightwarptexture" 	"models/tdm\hecu/shared/Clothes_wrp"
+	 "$lightwarptexture" 	"tdm\hecu/shared/Clothes_wrp"
 }

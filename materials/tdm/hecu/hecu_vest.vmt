@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models\tdm/hecu\hecu_vest"
-	"$bumpmap" "models\tdm/hecu\hecu_vest_n"
+	"$baseTexture" "tdm/hecu\hecu_vest"
+	"$bumpmap" "tdm/hecu\hecu_vest_n"
 	"$phong" "1"
 	"$phongexponent" "2"
 //	"$phongalbedotint" "1"

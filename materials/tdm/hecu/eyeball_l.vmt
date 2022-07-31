@@ -1,10 +1,10 @@
 "EyeRefract"
 {
-	"$Iris"               "models\tdm/hecu\eye"			  // Iris color in RGB with cornea noise in A
-	"$AmbientOcclTexture" "models\tdm/hecu\eye-extra"				  // Ambient occlusion in RGB, A unused
-	"$Envmap"             "models\tdm/hecu\eye-reflection-cubemap-"    // Reflection environment map
-	"$CorneaTexture"      "models\tdm/hecu\eye-cornea"                 // Special texture that has 2D cornea normal in RG and other data in BA
-//	"$lightwarptexture"   "models\tdm/hecu\eye_lightwarp"        	      // This enables TF NPR lighting
+	"$Iris"               "tdm/hecu\eye"			  // Iris color in RGB with cornea noise in A
+	"$AmbientOcclTexture" "tdm/hecu\eye-extra"				  // Ambient occlusion in RGB, A unused
+	"$Envmap"             "tdm/hecu\eye-reflection-cubemap-"    // Reflection environment map
+	"$CorneaTexture"      "tdm/hecu\eye-cornea"                 // Special texture that has 2D cornea normal in RG and other data in BA
+//	"$lightwarptexture"   "tdm/hecu\eye_lightwarp"        	      // This enables TF NPR lighting
 
 	"$EyeballRadius" "0.5"				// Default 0.5
 	"$AmbientOcclColor" "[0.33 0.33 0.33]"	// Default 0.33, 0.33, 0.33
@@ -22,8 +22,8 @@
 	// DX8 ps.1.1 fallbacks, original HL2 eyes
 	"Eyes_dx8"
 	{
-		"$basetexture" "models/humans/eyeball_l"
-		"$iris"        "models/humans/pupil_l"
+		"$basetexture" "humans/eyeball_l"
+		"$iris"        "humans/pupil_l"
 	}
 
 }

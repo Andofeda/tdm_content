@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" 	"models\tdm/hecu\hecu_gasmask"
-	"$bumpmap" "models\tdm/hecu\hecu_gasmask_n"
+	"$baseTexture" 	"tdm/hecu\hecu_gasmask"
+	"$bumpmap" "tdm/hecu\hecu_gasmask_n"
 
 
 
