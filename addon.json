@@ -1,0 +1,23 @@
+{
+	"title" :	"ArcCW TDM 3.5 gamemode CONTENT",
+	"type"  :	"gamemode",
+	"tags"  :	[],
+	"ignore":
+	[
+		"*.cmd",
+		"*.ini",
+		"*.lnk",
+		"*.url",
+		"*.psd",
+        "*.bat",
+        "*.pdn",
+        ".git/*",
+        ".gitignore",
+        ".gitattributes",
+        "*.code-workspace",
+        "LICENSE",
+        "README.md",
+		"arccwtdm_content.jpg",
+		"arccwtdm_content.png"
+	]
+}
