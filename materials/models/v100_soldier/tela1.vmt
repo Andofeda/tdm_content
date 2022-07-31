@@ -8,5 +8,6 @@
 	"$phongfresnelranges"	"[.1 .1 1]"
 	"$detail" "FF_Detail/MED_detail1"	
 	"$detailscale" 3
+	$color2 "[4 2 2]"
 }
 
