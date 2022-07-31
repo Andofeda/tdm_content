@@ -8,6 +8,9 @@
 	"$phongfresnelranges"	"[.1 .1 1]"
 	"$detail" "FF_Detail/MED_detail1"	
 	"$detailscale" 3
+
+	$rimlight 1
+	$rimlightboost 10
 	$color2 "[4 3 1]"
 }
 
