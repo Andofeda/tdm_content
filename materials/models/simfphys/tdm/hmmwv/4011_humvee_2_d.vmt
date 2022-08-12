@@ -13,6 +13,6 @@
 
 	"$alphatest" "1"
 	"$alphatestreference" "0.3"
-	"$phongexponenttexture" "BF3\vehicles\HMMWV/4011_humvee_2_S"
+	"$phongexponenttexture" "models\simfphys\tdm\hmmwv\4011_humvee_2_S"
 	
 }

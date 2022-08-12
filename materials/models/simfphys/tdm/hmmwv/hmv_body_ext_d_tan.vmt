@@ -7,7 +7,7 @@ $halflambert 1
 	$phongboost "1"
 	$phongexponent "2"
 	$phongfresnelranges "[1 2 4]" 
-	$phongwarptexture "models/cyn/paint_metallic_phongwarp"
+	$phongwarptexture "models\simfphys\tdm\hmmwv\paint_metallic_phongwarp"
 	
 	$envmap "env_cubemap"
 	$envmaptint "[0.05 0.05 0.05]"
@@ -30,5 +30,5 @@ $halflambert 1
 		}
 	}
 $ambientocclusion 1
-"$lightwarptexture"     "models\CoG\Units/Clothes_Wrp"
+"$lightwarptexture"     "models\simfphys\tdm\hmmwv\Clothes_Wrp"
 }

@@ -5,11 +5,11 @@
 
 	"$phong" "1"
 	"$phongboost" ".4"
-	"$phongexponenttexture" "valk/bulldog/turret_base_exp"
+	"$phongexponenttexture" "models/simfphys/tdm/bulldog/turret_base_exp"
 	"$phongalbedotint" "5"
 	"$phongfresnelranges" "[.1 .1 1]"
 	"$model" "1"
-	"$detail" "valk/shared/crysismetal"
+	"$detail" "models\simfphys\tdm\bulldog\crysismetal"
 	"$detailscale" "50"
 	"$detailblendfactor" "0.5"
 	"$detailblendmode" "0"

@@ -8,7 +8,7 @@
 	"$phongalbedotint" "5"
 	"$phongfresnelranges" "[.1 .1 1]"
 	"$model" "1"
-	"$detail" "valk/shared/crysismetal"
+	"$detail" "models\simfphys\tdm\bulldog\crysismetal"
 	"$detailscale" "50"
 	"$detailblendfactor" "0.5"
 	"$detailblendmode" "0"
