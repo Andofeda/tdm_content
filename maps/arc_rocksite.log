@@ -127,3 +127,1007 @@ Level flags = 0
 Total triangle count: 10987
 Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\maps\arc_rocksite.bsp
 18 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (-3840.00 0.00 0.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11584.0 6144.0 -1032.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12096.0 6144.0 -776.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11840.0 6144.0 1024.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11584.0 6144.0 3080.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12096.0 6144.0 2824.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11776.0 7168.0 1024.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12288.0 6656.0 1024.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10752.0 6144.0 -1032.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (125126 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 199 texinfos to 154
+Reduced 13 texdatas to 12 (245 bytes to 225)
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt
+LoadPortals: couldn't read d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+PREP OK
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+4399 faces
+7378441 square feet [1062495552.00 square inches]
+1 Displacements
+1746154 Square Feet [251446176.00 Square Inches]
+6 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0551 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                188/16384        2256/196608   ( 1.1%) 
+brushsides            1143/163840       9144/1310720  ( 0.7%) 
+planes                 436/65536        8720/1310720  ( 0.7%) 
+vertexes              6031/65536       72372/786432   ( 9.2%) 
+nodes                 2711/65536       86752/2097152  ( 4.1%) 
+texinfos               154/12288       11088/884736   ( 1.3%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       49914/0           49914/0        ( 0.0%) 
+faces                 4399/65536      246344/3670016  ( 6.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              646/65536       36176/3670016  ( 1.0%) 
+leaves                2713/65536       86816/2097152  ( 4.1%) 
+leaffaces             4773/65536        9546/131072   ( 7.3%) 
+leafbrushes           1217/65536        2434/131072   ( 1.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            21956/512000      87824/2048000  ( 4.3%) 
+edges                11547/256000      46188/1024000  ( 4.5%) 
+LDR worldlights          6/8192          528/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            151/32768        1510/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2058/65536        4116/131072   ( 3.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     7044932/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        2275/393216   ( 0.6%) 
+LDR ambient table     2713/65536       10852/262144   ( 4.1%) 
+HDR ambient table     2713/65536       10852/262144   ( 4.1%) 
+LDR leaf ambient     19885/65536      556780/1835008  (30.3%) 
+HDR leaf ambient      2713/65536       75964/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74446/0        ( 0.0%) 
+physics               [variable]      125126/4194304  ( 3.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10595
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+13 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11648.0 6144.0 2568.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11648.0 6144.0 -520.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12096.0 6144.0 1024.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11328.0 6144.0 1024.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11776.0 7168.0 1024.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12288.0 6656.0 1024.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10752.0 7168.0 1024.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9728.0 7168.0 1024.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6704 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 30 texinfos to 25
+Reduced 10 texdatas to 9 (189 bytes to 169)
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+1 second elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt
+LoadPortals: couldn't read d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+PREP OK
+No vis information, direct lighting only.
+1264 faces
+1619300 square feet [233179216.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0178 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 17/16384         204/196608   ( 0.1%) 
+brushsides             103/163840        824/1310720  ( 0.1%) 
+planes                 180/65536        3600/1310720  ( 0.3%) 
+vertexes              1591/65536       19092/786432   ( 2.4%) 
+nodes                  682/65536       21824/2097152  ( 1.0%) 
+texinfos                25/12288        1800/884736   ( 0.2%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1264/65536       70784/3670016  ( 1.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               83/65536        4648/3670016  ( 0.1%) 
+leaves                 684/65536       21888/2097152  ( 1.0%) 
+leaffaces             1310/65536        2620/131072   ( 2.0%) 
+leafbrushes            141/65536         282/131072   ( 0.2%) 
+areas                    1/1024            8/8192     ( 0.1%) 
+surfedges             5788/512000      23152/2048000  ( 1.1%) 
+edges                 2970/256000      11880/1024000  ( 1.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             42/32768         420/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           510/65536        1020/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     2402272/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         241/393216   ( 0.1%) 
+LDR ambient table      684/65536        2736/262144   ( 1.0%) 
+HDR ambient table      684/65536        2736/262144   ( 1.0%) 
+LDR leaf ambient       467/65536       13076/1835008  ( 0.7%) 
+HDR leaf ambient       684/65536       19152/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74446/0        ( 0.0%) 
+physics               [variable]        6704/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2930
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+3 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11584.0 6144.0 -1032.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12096.0 6144.0 -776.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11840.0 6144.0 1024.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11584.0 6144.0 3080.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12096.0 6144.0 2824.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11776.0 7168.0 1024.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12288.0 6656.0 1024.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10752.0 6144.0 -1032.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (62304 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 168 texinfos to 132
+Reduced 12 texdatas to 11 (229 bytes to 209)
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+1 second elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt
+LoadPortals: couldn't read d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+PREP OK
+No vis information, direct lighting only.
+4328 faces
+7333890 square feet [1056080128.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0509 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                175/16384        2100/196608   ( 1.1%) 
+brushsides            1053/163840       8424/1310720  ( 0.6%) 
+planes                 388/65536        7760/1310720  ( 0.6%) 
+vertexes              5940/65536       71280/786432   ( 9.1%) 
+nodes                 2695/65536       86240/2097152  ( 4.1%) 
+texinfos               132/12288        9504/884736   ( 1.1%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4328/65536      242368/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              606/65536       33936/3670016  ( 0.9%) 
+leaves                2697/65536       86304/2097152  ( 4.1%) 
+leaffaces             4729/65536        9458/131072   ( 7.2%) 
+leafbrushes           1190/65536        2380/131072   ( 1.8%) 
+areas                    1/1024            8/8192     ( 0.1%) 
+surfedges            21435/512000      85740/2048000  ( 4.2%) 
+edges                11202/256000      44808/1024000  ( 4.4%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            137/32768        1370/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1857/65536        3714/131072   ( 2.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     6881828/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         242/393216   ( 0.1%) 
+LDR ambient table     2697/65536       10788/262144   ( 4.1%) 
+HDR ambient table     2697/65536       10788/262144   ( 4.1%) 
+LDR leaf ambient      1554/65536       43512/1835008  ( 2.4%) 
+HDR leaf ambient      2697/65536       75516/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74446/0        ( 0.0%) 
+physics               [variable]       62304/4194304  ( 1.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10358
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+12 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (-3840.00 0.00 0.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11584.0 6144.0 -1032.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12096.0 6144.0 -776.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11840.0 6144.0 1024.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11584.0 6144.0 3080.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12096.0 6144.0 2824.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (11776.0 7168.0 1024.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (12288.0 6656.0 1024.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (10752.0 6144.0 -1032.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (117190 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 175 texinfos to 135
+Reduced 13 texdatas to 12 (245 bytes to 225)
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+1 second elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt
+LoadPortals: couldn't read d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+PREP OK
+Patch Sample Radius Clamped!
+No vis information, direct lighting only.
+3668 faces
+6602158 square feet [950710784.00 square inches]
+1 Displacements
+1746154 Square Feet [251446176.00 Square Inches]
+6 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0431 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                166/16384        1992/196608   ( 1.0%) 
+brushsides            1007/163840       8056/1310720  ( 0.6%) 
+planes                 370/65536        7400/1310720  ( 0.6%) 
+vertexes              5125/65536       61500/786432   ( 7.8%) 
+nodes                 2473/65536       79136/2097152  ( 3.8%) 
+texinfos               135/12288        9720/884736   ( 1.1%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       49914/0           49914/0        ( 0.0%) 
+faces                 3668/65536      205408/3670016  ( 5.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              545/65536       30520/3670016  ( 0.8%) 
+leaves                2475/65536       79200/2097152  ( 3.8%) 
+leaffaces             3987/65536        7974/131072   ( 6.1%) 
+leafbrushes           1098/65536        2196/131072   ( 1.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            18275/512000      73100/2048000  ( 3.6%) 
+edges                 9679/256000      38716/1024000  ( 3.8%) 
+LDR worldlights          6/8192          528/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            128/32768        1280/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1767/65536        3534/131072   ( 2.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     5677592/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        2275/393216   ( 0.6%) 
+LDR ambient table     2475/65536        9900/262144   ( 3.8%) 
+HDR ambient table     2475/65536        9900/262144   ( 3.8%) 
+LDR leaf ambient     17693/65536      495404/1835008  (27.0%) 
+HDR leaf ambient      2475/65536       69300/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74446/0        ( 0.0%) 
+physics               [variable]      117190/4194304  ( 2.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8772
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+11 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (125766 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 199 texinfos to 154
+Reduced 13 texdatas to 12 (245 bytes to 225)
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt
+ 854 portalclusters
+2170 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 4839 visible clusters (0.73%)
+Total clusters visible: 666423
+Average clusters visible: 780
+Building PAS...
+Average clusters audible: 853
+visdatasize:189420  compressed from 191296
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+PREP OK
+Patch Sample Radius Clamped!
+4541 faces
+7624712 square feet [1097958528.00 square inches]
+1 Displacements
+1746154 Square Feet [251446176.00 Square Inches]
+4541 patches before subdivision
+325403 patches after subdivision
+6 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 14020861, max 1237
+transfer lists: 107.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2415501, 2202822, 1672171)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(179055, 164099, 131497)
+Build Patch/Sample Hash Table(s).....Done<0.1785 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                190/16384        2280/196608   ( 1.2%) 
+brushsides            1155/163840       9240/1310720  ( 0.7%) 
+planes                 436/65536        8720/1310720  ( 0.7%) 
+vertexes              5521/65536       66252/786432   ( 8.4%) 
+nodes                 2088/65536       66816/2097152  ( 3.2%) 
+texinfos               154/12288       11088/884736   ( 1.3%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       49914/0           49914/0        ( 0.0%) 
+faces                 4541/65536      254296/3670016  ( 6.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              650/65536       36400/3670016  ( 1.0%) 
+leaves                2090/65536       66880/2097152  ( 3.2%) 
+leaffaces             4888/65536        9776/131072   ( 7.5%) 
+leafbrushes           1289/65536        2578/131072   ( 2.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            22649/512000      90596/2048000  ( 4.4%) 
+edges                11878/256000      47512/1024000  ( 4.6%) 
+LDR worldlights          6/8192          528/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            160/32768        1600/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2148/65536        4296/131072   ( 3.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     7217704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      189420/16777216 ( 1.1%) 
+entdata               [variable]        2275/393216   ( 0.6%) 
+LDR ambient table     2090/65536        8360/262144   ( 3.2%) 
+HDR ambient table     2090/65536        8360/262144   ( 3.2%) 
+LDR leaf ambient     12839/65536      359492/1835008  (19.6%) 
+HDR leaf ambient      2090/65536       58520/1835008  ( 3.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74446/0        ( 0.0%) 
+physics               [variable]      125766/4194304  ( 3.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10988
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+17 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (125814 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 130 texinfos to 109
+Reduced 13 texdatas to 12 (245 bytes to 225)
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt
+ 846 portalclusters
+2131 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 4853 visible clusters (0.74%)
+Total clusters visible: 654255
+Average clusters visible: 773
+Building PAS...
+Average clusters audible: 846
+visdatasize:185376  compressed from 189504
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+PREP OK
+Patch Sample Radius Clamped!
+4468 faces
+7566436 square feet [1089566848.00 square inches]
+1 Displacements
+1746154 Square Feet [251446176.00 Square Inches]
+4468 patches before subdivision
+310520 patches after subdivision
+6 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12655156, max 1242
+transfer lists:  96.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2248248, 2038157, 1530650)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(132492, 120878, 96513)
+Build Patch/Sample Hash Table(s).....Done<0.1622 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                190/16384        2280/196608   ( 1.2%) 
+brushsides            1155/163840       9240/1310720  ( 0.7%) 
+planes                 466/65536        9320/1310720  ( 0.7%) 
+vertexes              5435/65536       65220/786432   ( 8.3%) 
+nodes                 2065/65536       66080/2097152  ( 3.2%) 
+texinfos               109/12288        7848/884736   ( 0.9%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                1/0             176/0        ( 0.0%) 
+disp_verts             289/0            5780/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       49914/0           49914/0        ( 0.0%) 
+faces                 4468/65536      250208/3670016  ( 6.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              645/65536       36120/3670016  ( 1.0%) 
+leaves                2067/65536       66144/2097152  ( 3.2%) 
+leaffaces             4789/65536        9578/131072   ( 7.3%) 
+leafbrushes           1273/65536        2546/131072   ( 1.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            22265/512000      89060/2048000  ( 4.3%) 
+edges                11677/256000      46708/1024000  ( 4.6%) 
+LDR worldlights          6/8192          528/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            132/32768        1320/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1905/65536        3810/131072   ( 2.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     7032420/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      185376/16777216 ( 1.1%) 
+entdata               [variable]        2288/393216   ( 0.6%) 
+LDR ambient table     2067/65536        8268/262144   ( 3.2%) 
+HDR ambient table     2067/65536        8268/262144   ( 3.2%) 
+LDR leaf ambient     12311/65536      344708/1835008  (18.8%) 
+HDR leaf ambient      2067/65536       57876/1835008  ( 3.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       74446/0        ( 0.0%) 
+physics               [variable]      125814/4194304  ( 3.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10770
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+17 seconds elapsed
