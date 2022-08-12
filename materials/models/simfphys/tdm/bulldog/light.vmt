@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/simfphys/tdm/bulldog/light_d"
+
+	"$phong" "1"
+	"$phongboost" ".4"
+	"$phongalbedotint" "5"
+	"$phongfresnelranges" "[.1 .1 1]"
+	"$model" "1"
+}
