@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/simfphys/tdm/lav/reactive_armor"
+	"$bumpmap" "models/simfphys/tdm/lav/reactive_armor_n"
+	"$halflambert" "1"					
+	"$nocull" 0
+	"$nodecal" 1
+	
+	"$phong" "1"
+	"$phongboost"	"1"
+	"$phongexponent" "15"
+	"$phongfresnelranges"	"[0.3 1 4]"
+}
