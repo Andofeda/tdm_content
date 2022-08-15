@@ -2726,3 +2726,417 @@ Level flags = 0
 Total triangle count: 14288
 Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
 26 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.vmf
+Patching WVT material: maps/arc_rocksite/gm_construct/grass-sand_13_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 96 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (544005 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 712 texinfos to 594
+Reduced 13 texdatas to 11 (299 bytes to 231)
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt
+ 641 portalclusters
+1592 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1930 visible clusters (0.48%)
+Total clusters visible: 400861
+Average clusters visible: 625
+Building PAS...
+Average clusters audible: 641
+visdatasize:108645  compressed from 112816
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+PREP OK
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+5822 faces
+7625133 square feet [1098019200.00 square inches]
+18 Displacements
+3416500 Square Feet [491976000.00 Square Inches]
+5822 patches before subdivision
+421320 patches after subdivision
+28 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 19143261, max 1421
+transfer lists: 146.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1443683, 1559921, 1358885)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(136824, 144731, 134117)
+Build Patch/Sample Hash Table(s).....Done<0.2427 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                350/16384        4200/196608   ( 2.1%) 
+brushsides            2208/163840      17664/1310720  ( 1.3%) 
+planes                1252/65536       25040/1310720  ( 1.9%) 
+vertexes              8000/65536       96000/786432   (12.2%) 
+nodes                 1642/65536       52544/2097152  ( 2.5%) 
+texinfos               594/12288       42768/884736   ( 4.8%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos               18/0            3168/0        ( 0.0%) 
+disp_verts            2090/0           41800/0        ( 0.0%) 
+disp_tris             3552/0            7104/0        ( 0.0%) 
+disp_lmsamples      149831/0          149831/0        ( 0.0%) 
+faces                 5822/65536      326032/3670016  ( 8.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1508/65536       84448/3670016  ( 2.3%) 
+leaves                1644/65536       52608/2097152  ( 2.5%) 
+leaffaces             7043/65536       14086/131072   (10.7%) 
+leafbrushes           1980/65536        3960/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32165/512000     128660/2048000  ( 6.3%) 
+edges                17483/256000      69932/1024000  ( 6.8%) 
+LDR worldlights         28/8192         2464/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            262/32768        2620/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3570/65536        7140/131072   ( 5.4%) 
+cubemapsamples          23/1024          368/16384    ( 2.2%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     9968332/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      108645/16777216 ( 0.6%) 
+entdata               [variable]        9812/393216   ( 2.5%) 
+LDR ambient table     1644/65536        6576/262144   ( 2.5%) 
+HDR ambient table     1644/65536        6576/262144   ( 2.5%) 
+LDR leaf ambient     10078/65536      282184/1835008  (15.4%) 
+HDR leaf ambient      1644/65536       46032/1835008  ( 2.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     1785982/0        ( 0.0%) 
+physics               [variable]      544005/4194304  (13.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 14431
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+28 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.vmf
+Patching WVT material: maps/arc_rocksite/gm_construct/grass-sand_13_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 96 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (543909 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 712 texinfos to 592
+Reduced 13 texdatas to 11 (299 bytes to 231)
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt
+ 641 portalclusters
+1592 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1930 visible clusters (0.48%)
+Total clusters visible: 400861
+Average clusters visible: 625
+Building PAS...
+Average clusters audible: 641
+visdatasize:108645  compressed from 112816
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+PREP OK
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+5820 faces
+7624748 square feet [1097963776.00 square inches]
+18 Displacements
+3416500 Square Feet [491976000.00 Square Inches]
+5820 patches before subdivision
+421242 patches after subdivision
+28 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 19117719, max 1418
+transfer lists: 145.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1438518, 1554780, 1352728)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(135957, 144018, 133386)
+Build Patch/Sample Hash Table(s).....Done<0.2338 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                350/16384        4200/196608   ( 2.1%) 
+brushsides            2208/163840      17664/1310720  ( 1.3%) 
+planes                1250/65536       25000/1310720  ( 1.9%) 
+vertexes              7998/65536       95976/786432   (12.2%) 
+nodes                 1642/65536       52544/2097152  ( 2.5%) 
+texinfos               592/12288       42624/884736   ( 4.8%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos               18/0            3168/0        ( 0.0%) 
+disp_verts            2090/0           41800/0        ( 0.0%) 
+disp_tris             3552/0            7104/0        ( 0.0%) 
+disp_lmsamples      149831/0          149831/0        ( 0.0%) 
+faces                 5820/65536      325920/3670016  ( 8.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1506/65536       84336/3670016  ( 2.3%) 
+leaves                1644/65536       52608/2097152  ( 2.5%) 
+leaffaces             7039/65536       14078/131072   (10.7%) 
+leafbrushes           1980/65536        3960/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32146/512000     128584/2048000  ( 6.3%) 
+edges                17473/256000      69892/1024000  ( 6.8%) 
+LDR worldlights         28/8192         2464/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            261/32768        2610/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3558/65536        7116/131072   ( 5.4%) 
+cubemapsamples          23/1024          368/16384    ( 2.2%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     9968048/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      108645/16777216 ( 0.6%) 
+entdata               [variable]        9812/393216   ( 2.5%) 
+LDR ambient table     1644/65536        6576/262144   ( 2.5%) 
+HDR ambient table     1644/65536        6576/262144   ( 2.5%) 
+LDR leaf ambient     10077/65536      282156/1835008  (15.4%) 
+HDR leaf ambient      1644/65536       46032/1835008  ( 2.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     1785982/0        ( 0.0%) 
+physics               [variable]      543909/4194304  (13.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 14424
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+28 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.vmf
+Patching WVT material: maps/arc_rocksite/gm_construct/grass-sand_13_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 96 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (543909 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 713 texinfos to 591
+Reduced 13 texdatas to 11 (299 bytes to 231)
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.prt
+ 641 portalclusters
+1592 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1930 visible clusters (0.48%)
+Total clusters visible: 400861
+Average clusters visible: 625
+Building PAS...
+Average clusters audible: 641
+visdatasize:108645  compressed from 112816
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+PREP OK
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+5820 faces
+7624748 square feet [1097963776.00 square inches]
+18 Displacements
+3416500 Square Feet [491976000.00 Square Inches]
+5820 patches before subdivision
+421242 patches after subdivision
+28 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 19115534, max 1419
+transfer lists: 145.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1438396, 1554634, 1352695)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(136093, 144175, 133499)
+Build Patch/Sample Hash Table(s).....Done<0.2495 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                350/16384        4200/196608   ( 2.1%) 
+brushsides            2208/163840      17664/1310720  ( 1.3%) 
+planes                1252/65536       25040/1310720  ( 1.9%) 
+vertexes              7998/65536       95976/786432   (12.2%) 
+nodes                 1642/65536       52544/2097152  ( 2.5%) 
+texinfos               591/12288       42552/884736   ( 4.8%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos               18/0            3168/0        ( 0.0%) 
+disp_verts            2090/0           41800/0        ( 0.0%) 
+disp_tris             3552/0            7104/0        ( 0.0%) 
+disp_lmsamples      149831/0          149831/0        ( 0.0%) 
+faces                 5820/65536      325920/3670016  ( 8.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1506/65536       84336/3670016  ( 2.3%) 
+leaves                1644/65536       52608/2097152  ( 2.5%) 
+leaffaces             7025/65536       14050/131072   (10.7%) 
+leafbrushes           1977/65536        3954/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            32146/512000     128584/2048000  ( 6.3%) 
+edges                17473/256000      69892/1024000  ( 6.8%) 
+LDR worldlights         28/8192         2464/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            261/32768        2610/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3558/65536        7116/131072   ( 5.4%) 
+cubemapsamples          23/1024          368/16384    ( 2.2%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     9968048/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      108645/16777216 ( 0.6%) 
+entdata               [variable]        9812/393216   ( 2.5%) 
+LDR ambient table     1644/65536        6576/262144   ( 2.5%) 
+HDR ambient table     1644/65536        6576/262144   ( 2.5%) 
+LDR leaf ambient     10075/65536      282100/1835008  (15.4%) 
+HDR leaf ambient      1644/65536       46032/1835008  ( 2.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]     1785982/0        ( 0.0%) 
+physics               [variable]      543909/4194304  (13.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 14424
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\arccwtdm_content\maps\arc_rocksite.bsp
+28 seconds elapsed
